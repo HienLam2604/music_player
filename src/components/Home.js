@@ -1,10 +1,9 @@
 import React from 'react';
-import Nav from './Nav';
 import Body from './Body';
-function Main() {
+function Home() {
   return <div>
     <Body/>
   </div>;
 }
 
-export default Main;
+export default Home;

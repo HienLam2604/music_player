@@ -1,8 +1,11 @@
-import Main from "./components/Main";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
 function App() {
   return (
     <div className="App">
-       <Main/>
+<NavBar/>
+      
+      <Home/>
     </div>
   );
 }
