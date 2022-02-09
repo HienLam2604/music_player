@@ -1,9 +1,27 @@
 .navBtn {
-  color: black;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
+	color: black;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
 }
 .btnActive {
-  color: blue;
+	color: blue;
+}
+.btnOnCard {
+	position: absolute;
+	top: 24%;
+	left: 42%;
+	background: transparent(rgba(189, 207, 255, 0.28));
+	border: 1px solid hsla(0, 0%, 100%, 0.08);
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.btnOnCard:hover {
+	background: white;
+}
+.play-list-img:hover {
+	box-shadow: 0px 3px #a79c9c;
+	border-radius: 5px;
 }

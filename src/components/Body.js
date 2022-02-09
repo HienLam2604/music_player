@@ -1,15 +1,12 @@
-import React from 'react';
-import { Container } from 'reactstrap';
-import FirstRow from './FirstRow'
-import Player from './Player';
+import React from "react";
+import Player from "./Player";
+
 function Body() {
-  return <>
-  <Container>
-    <FirstRow/>
-    <FirstRow/>
-  </Container>
-  <Player/>
-  </>;
+	return (
+		<>
+			<Player />
+		</>
+	);
 }
 
 export default Body;
