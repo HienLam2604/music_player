@@ -144,9 +144,6 @@ function Player() {
 	};
 	return (
 		<>
-			<div>
-				<FirstRow playPlayList={handleBtnPlay} />
-			</div>
 			<div className="h-auto fixed-bottom">
 				<audio
 					preload="none"

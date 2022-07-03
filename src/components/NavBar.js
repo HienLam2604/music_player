@@ -53,7 +53,7 @@ function NavBar() {
 				</NavItem>
 			</Nav>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="/" exact element={<Home />} />
 				<Route path="/explore" element={<Explore />} />
 				<Route path="/library" element={<Library />} />
 			</Routes>

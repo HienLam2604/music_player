@@ -3,7 +3,7 @@ import PlayList from "./PlayList";
 import { Col, Container, Row } from "reactstrap";
 import logo_ZingMp3 from "../asset/img/logo_Zingmp3.png";
 
-function FirstRow({ playPlayList }) {
+function FirstRow() {
 	const billboard =
 		"https://p2.music.126.net/rwRsVIJHQ68gglhA6TNEYA==/109951165611413732.jpg?param=512y512";
 	const spotify =
@@ -20,7 +20,6 @@ function FirstRow({ playPlayList }) {
 							img={logo_ZingMp3}
 							title="Top Zing Mp3"
 							description="Những bài hát hay đến từ Zing Mp3..."
-							playPlayList={playPlayList}
 						/>
 					</Col>
 					<Col>
